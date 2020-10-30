@@ -1,35 +1,11 @@
 {
-  "_from": "https://www.atom.io/api/packages/image-paste/versions/0.0.0/tarball",
-  "_id": "image-paste@0.0.0",
-  "_inBundle": false,
-  "_integrity": "sha512-RV5B82Vv65A6c26RDZ7G4mzlX+Ms0te0+SaUiPMS6+Uec7k1Jt3xxIAvL21GZRhrDzVbo8dikdgaR6v7FzZJwA==",
-  "_location": "/image-paste",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "remote",
-    "raw": "https://www.atom.io/api/packages/image-paste/versions/0.0.0/tarball",
-    "rawSpec": "https://www.atom.io/api/packages/image-paste/versions/0.0.0/tarball",
-    "saveSpec": "https://www.atom.io/api/packages/image-paste/versions/0.0.0/tarball",
-    "fetchSpec": "https://www.atom.io/api/packages/image-paste/versions/0.0.0/tarball"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://www.atom.io/api/packages/image-paste/versions/0.0.0/tarball",
-  "_shasum": "be2c03faeec4ba8ff01922fc5bbe4e4a21f5044a",
-  "_spec": "https://www.atom.io/api/packages/image-paste/versions/0.0.0/tarball",
-  "_where": "C:\\Users\\ASILOI~1\\AppData\\Local\\Temp\\apm-install-dir-202091-40964-1x9hs37.4cw7",
-  "bugs": {
-    "url": "https://github.com/bacadra/image-paste"
-  },
-  "bundleDependencies": false,
-  "deprecated": false,
+  "name": "image-paste",
+  "version": "0.0.0",
+  "main": "./lib/main",
   "description": "Copy image or take screenshot and paste it in text document. The image will be saved in given path and relative url will be inserted into document.",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "homepage": "https://github.com/bacadra/image-paste",
   "keywords": [
     "image",
     "paste",
@@ -37,9 +13,7 @@
     "clipboard",
     "copy"
   ],
-  "license": "MIT",
-  "main": "./lib/main",
-  "name": "image-paste",
-  "repository": "https://github.com/bacadra/image-paste",
-  "version": "0.0.0"
+  "homepage": "https://github.com/bacadra/image-paste",
+  "url": "https://github.com/bacadra/image-paste",
+  "repository": "https://github.com/bacadra/image-paste"
 }
