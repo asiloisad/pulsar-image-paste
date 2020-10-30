@@ -21,17 +21,16 @@
   "_spec": "https://www.atom.io/api/packages/image-paste/versions/0.1.0/tarball",
   "_where": "C:\\Users\\ASILOI~1\\AppData\\Local\\Temp\\apm-install-dir-202091-40964-1x9hs37.4cw7",
   "bugs": {
-    "url": "https://github.com/bacadra/image-paste/issues"
+    "url": "https://github.com/bacadra/image-paste"
   },
   "bundleDependencies": false,
   "deprecated": false,
-  "description": "When an image is pasted into LaTeX, this package creates a directory including the image and inserts a figure including the image path into the document.",
+  "description": "Copy image or take screenshot and paste it in text document. The image will be saved in given path and relative url will be inserted into document.",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "homepage": "https://github.com/bacadra/image-paste#readme",
+  "homepage": "https://github.com/bacadra/image-paste",
   "keywords": [
-    "latex",
     "image",
     "paste",
     "figure",
@@ -41,9 +40,6 @@
   "license": "MIT",
   "main": "./lib/main",
   "name": "image-paste",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bacadra/image-paste.git"
-  },
+  "repository": "https://github.com/bacadra/image-paste",
   "version": "0.1.0"
 }
