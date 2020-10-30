@@ -43,7 +43,7 @@ class NameDialog extends Dialog
 
   writePng: (Path, callback)->
     fs = require('fs')
-    fs.writeFile Path, @buffer, 'binary',() =>
+    fs.writeFile Path, @imgbuffer, 'binary',() =>
       console.log('image-paste: Finish clip image')
       callback()
 
