@@ -1,30 +1,22 @@
-# that file was based in the tree-view file: movedialog.coffee
 {Directory, File} = require 'atom'
-path = require 'path'
-fs = require 'fs'
-Dialog = require './dialog'
-
-# dir_tree_wiew = atom.packages.resolvePackagePath('tree-view')
-# Dialog = require  dir_tree_wiew + '/lib/dialog'
-# {repoForPath} = require  dir_tree_wiew +  "/lib/helpers"
+path              = require 'path'
+fs                = require 'fs'
+Dialog            = require './dialog'
 
 module.exports =
 class NameDialog extends Dialog
-  constructor: (@img_filename, @assets_dir, @editor, @imgbuffer) ->
+  constructor: (@img_filename, @editor, @imgbuffer) ->
     prompt = 'Enter a name for the Image'
 
     super
       prompt: prompt
       initialPath: @img_filename
-      assets_dir: @assets_dir
       select: true
       iconClass: 'icon-arrow-right'
 
   onConfirm: (relPath) ->
-    editor = atom.workspace.getActiveTextEditor()
-
     thepath = path.join(
-      path.dirname(editor.getPath()), relPath.replace(/\s+$/, ''))
+      path.dirname(@editor.getPath()), relPath.replace(/\s+$/, ''))
 
     assets_path = path.dirname(thepath)
     filename   = path.basename(thepath)
@@ -32,8 +24,8 @@ class NameDialog extends Dialog
     return unless filename
 
     @createDir assets_path, ()=>
-      @writePng thepath, @imgbuffer, ()=>
-        @insertUrl relPath, @editor
+      @writePng thepath, ()=>
+        @insertUrl relPath
 
     @close()
 
@@ -49,15 +41,15 @@ class NameDialog extends Dialog
       else
         callback()
 
-  writePng: (Path, buffer, callback)->
+  writePng: (Path, callback)->
     fs = require('fs')
-    fs.writeFile Path, buffer, 'binary',() =>
+    fs.writeFile Path, @buffer, 'binary',() =>
       console.log('image-paste: Finish clip image')
       callback()
 
-  insertUrl: (relPath, editor) ->
-    selection = editor.getSelectedText()
+  insertUrl: (relPath) ->
+    selection = @editor.getSelectedText()
     if selection.length > 0
-      editor.insertText(filename)
+      @editor.insertText(relPath)
     else
-      editor.insertText(relPath)
+      @editor.insertText(relPath)

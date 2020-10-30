@@ -18,6 +18,11 @@ module.exports = MarkdownImageAssistant =
       description: "Whether to prepend the target file name when copying over the image. Overrides the \"Preserve Original Name\" setting."
       type: 'boolean'
       default: true
+    slashJoin:
+      title: "Force forward slash separator"
+      description: "Replace all backslash occurens to forward slash in default path. The backslashes inserted by hand will be not replaced."
+      type: 'boolean'
+      default: true
 
   activate: (state) ->
     # Events subscribed to in atom's system can be easily cleaned up
@@ -50,7 +55,6 @@ module.exports = MarkdownImageAssistant =
   # write a given buffer to the local "assets/" directory
   process_file: (editor, imgbuffer, extname) ->
     target_file = editor.getPath()
-    assets_dir = path.basename(atom.config.get('image-paste.imageDir'))
 
     md5 = crypto.createHash 'md5'
     md5.update(imgbuffer)
@@ -65,7 +69,7 @@ module.exports = MarkdownImageAssistant =
       else
         img_filename = "#{path.parse(target_file).name}-#{md5.digest('hex').slice(0,8)}#{extname}"
 
-    dialog = new NameDialog img_filename, assets_dir, editor, imgbuffer
+    dialog = new NameDialog img_filename, editor, imgbuffer
     dialog.attach()
 
     return false

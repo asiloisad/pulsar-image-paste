@@ -32,14 +32,27 @@ class Dialog
       'core:confirm': => @onConfirm(@miniEditor.getText())
       'core:cancel': => @cancel()
 
-    fpath = path.join(assets_dir, initialPath).replace(/\\/, '/')
+    imageDir = atom.config.get('image-paste.imageDir')
+
+    if initialPath.startsWith(imageDir+'\\')||initialPath.startsWith(imageDir+'/')
+      fpath = initialPath
+    else
+      fpath = path.join(imageDir, initialPath)
+
+    if atom.config.get('image-paste.slashJoin')
+      fpath = fpath.split('\\').join('/')
+
     @miniEditor.setText(fpath)
 
     if select
       extension = path.extname(initialPath)
       baseName = path.basename(initialPath)
 
-      selectionStart = fpath.length - baseName.length
+      if fpath.startsWith(imageDir)
+        selectionStart = imageDir.length+1
+      else
+        selectionStart = 0
+
       if baseName is extension
         selectionEnd = fpath.length
       else
