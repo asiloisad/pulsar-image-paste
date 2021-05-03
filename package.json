@@ -11,7 +11,10 @@
     "paste",
     "figure",
     "clipboard",
-    "copy"
+    "copy",
+    "markdown",
+    "latex",
+    "pylatex"
   ],
   "homepage": "https://github.com/bacadra/image-paste",
   "url": "https://github.com/bacadra/image-paste",

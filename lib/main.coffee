@@ -39,7 +39,6 @@ module.exports = MarkdownImageAssistant =
         #in  other place that not is a editor: the 'settings page' (for example)
         grammar = editor.getGrammar()
         # return unless grammar
-        # return unless grammar.scopeName is 'text.tex.latex'
         @handle_cp(e)
 
   # triggered in response to a copy pasted image

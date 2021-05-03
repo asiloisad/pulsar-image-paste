@@ -24,17 +24,3 @@ The changes in compare to the original package:
 * The scope of package has been extended to any gramma.
 * The RAW path is inserted instead of latex-image block. This way it can be used in any schema, e.g. Python pyLatex package.
 * The main path occur in path dialog now, so it can be changed in any moment without going to setting pane.
-
-
-## See my another packages...
-
-* [bacadra-atom](https://github.com/bacadra/bacadra-atom)
-* [bib-finder](https://github.com/bacadra/bib-finder)
-* [fold-section](https://github.com/bacadra/fold-section)
-* [hydrogen-run](https://github.com/bacadra/hydrogen-run)
-* [image-paste](https://github.com/bacadra/image-paste)
-* [language-bacadra](https://github.com/bacadra/language-bacadra)
-* [language-sofistik](https://github.com/bacadra/language-sofistik)
-* [navigation-pane](https://github.com/bacadra/navigation-pane)
-* [sofistik-atom](https://github.com/bacadra/sofistik-atom)
-* [word-map](https://github.com/bacadra/word-map)
