@@ -2,7 +2,7 @@
 
 Copy image or take screenshot and paste it in text document. The image will be saved in given path and relative url will be inserted into document.
 
-![Demo1](https://github.com/bacadra/image-paste/blob/master/demo1.gif)
+![Demo1](https://github.com/bacadra/image-paste/blob/master/demo1.gif?raw=true)
 
 
 ## Usage
