@@ -76,7 +76,7 @@ class Dialog
 
   cancel: ->
     @close()
-    document.querySelector('.tree-view')?.focus()
+    # document.querySelector('.tree-view')?.focus()
 
   showError: (message='') ->
     @errorMessage.textContent = message

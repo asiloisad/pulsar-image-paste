@@ -6,8 +6,7 @@ Dialog            = require './dialog'
 module.exports =
 class NameDialog extends Dialog
   constructor: (@img_filename, @editor, @imgbuffer) ->
-    prompt = 'Enter a name for the Image'
-
+    prompt = 'Enter a path for the image (with .png extension)'
     super
       prompt: prompt
       initialPath: @img_filename
@@ -17,26 +16,20 @@ class NameDialog extends Dialog
   onConfirm: (relPath) ->
     thepath = path.join(
       path.dirname(@editor.getPath()), relPath.replace(/\s+$/, ''))
-
     assets_path = path.dirname(thepath)
     filename   = path.basename(thepath)
-
     return unless filename
-
     @createDir assets_path, ()=>
       @writePng thepath, ()=>
         @insertUrl relPath
-
     @close()
 
   createDir: (dirPath, callback)->
     assetsDir = new Directory(dirPath)
-
     assetsDir.exists().then (existed) =>
       if not existed
         assetsDir.create().then (created) =>
           if created
-            console.log 'image-paste: Success Create dir'
             callback()
       else
         callback()
@@ -44,7 +37,6 @@ class NameDialog extends Dialog
   writePng: (Path, callback)->
     fs = require('fs')
     fs.writeFile Path, @imgbuffer, 'binary',() =>
-      console.log('image-paste: Finish clip image')
       callback()
 
   insertUrl: (relPath) ->

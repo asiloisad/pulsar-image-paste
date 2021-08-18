@@ -1,4 +1,4 @@
-{CompositeDisposable, Directory, File} = require 'atom'
+{CompositeDisposable, Disposable, Directory, File} = require 'atom'
 fs         = require 'fs'
 path       = require 'path'
 crypto     = require "crypto"
@@ -46,6 +46,8 @@ module.exports = MarkdownImageAssistant =
         grammar = editor.getGrammar()
         return unless grammar
         @handle_cp(e)
+      else if event? and event.type == 'tree-view:paste'
+        console.log 'TODO'
 
     @subscriptions.add atom.commands.add 'atom-text-editor',
       'image-paste:save': () =>
