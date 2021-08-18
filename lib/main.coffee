@@ -26,7 +26,7 @@ module.exports = MarkdownImageAssistant =
       default: true
       order: 3
     coreHandle:
-      title: "Hack atom core:paste method"
+      title: "Hack core:paste method"
       description: "If active then the default paste method will be hacked and be able to capture the image."
       type: 'boolean'
       default: true
