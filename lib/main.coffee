@@ -4,7 +4,7 @@ path       = require 'path'
 crypto     = require "crypto"
 NameDialog = require './dialog-name-img'
 
-module.exports = MarkdownImageAssistant =
+module.exports = ImagePaste =
   subscriptions: null
   config:
     imageDir:
