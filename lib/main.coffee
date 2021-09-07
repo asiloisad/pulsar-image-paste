@@ -57,7 +57,7 @@ module.exports = ImagePaste =
 
   # triggered in response to a copy pasted image
   handle_cp: (e) ->
-    clipboard = require 'clipboard'
+    clipboard = require("electron").clipboard
     img = clipboard.readImage()
     return if img.isEmpty()
     editor = atom.workspace.getActiveTextEditor()
