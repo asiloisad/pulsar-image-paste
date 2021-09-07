@@ -18,5 +18,6 @@
   ],
   "homepage": "https://github.com/bacadra/atom-image-paste",
   "url": "https://github.com/bacadra/atom-image-paste",
-  "repository": "https://github.com/bacadra/atom-image-paste"
+  "repository": "https://github.com/bacadra/atom-image-paste",
+  "license": "GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007"
 }
