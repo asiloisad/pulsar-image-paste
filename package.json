@@ -1,6 +1,6 @@
 {
   "name": "image-paste",
-  "version": "0.2.11",
+  "version": "0.3.0",
   "main": "./lib/main",
   "description": "Copy image or take screenshot and paste it in text document. The image will be saved in given path and relative url will be inserted into document.",
   "engines": {
@@ -22,7 +22,7 @@
         "^1.0.0": "consumeTreeView"
       }
     }
-  },  
+  },
   "homepage": "https://github.com/bacadra/atom-image-paste",
   "url": "https://github.com/bacadra/atom-image-paste",
   "repository": "https://github.com/bacadra/atom-image-paste",
