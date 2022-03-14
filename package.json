@@ -16,6 +16,13 @@
     "latex",
     "pylatex"
   ],
+  "consumedServices": {
+    "tree-view": {
+      "versions": {
+        "^1.0.0": "consumeTreeView"
+      }
+    }
+  },  
   "homepage": "https://github.com/bacadra/atom-image-paste",
   "url": "https://github.com/bacadra/atom-image-paste",
   "repository": "https://github.com/bacadra/atom-image-paste",
