@@ -31,3 +31,4 @@ Copy image or take screenshot and paste it into Atom. Advance algorithm is used 
 * All grammars are accepted, so package can be used in e.g. LaTeX, Python, Markdown.
 * Sometimes copied item has multiple formats (like tables from MS Excel). Then you can use `ctrl-shift-v` to paste raw text.
 * Only `.png`, `.jpg` and `.bmp` formats are supported. If file extension does not match, then `.png` format is used.
+* package work well with [tree-view-clipboard](https://atom.io/packages/tree-view-clipboard) package.
