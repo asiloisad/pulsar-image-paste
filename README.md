@@ -2,7 +2,7 @@
 
 Copy image or take screenshot and paste it into Atom. Advance algorithm is used to create default path.
 
-![Demo](https://github.com/bacadra/image-paste/blob/master/demo.gif?raw=true)
+![Demo](https://github.com/bacadra/image-paste/blob/master/assets/demo.gif?raw=true)
 
 
 ## Usage in text editor
