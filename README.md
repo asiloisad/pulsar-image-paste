@@ -4,7 +4,7 @@ Copy image or take screenshot and paste it into Atom. Advance algorithm is used 
 
 ![Demo](https://github.com/bacadra/image-paste/blob/master/assets/demo.gif?raw=true)
 
-![Preview](https://github.com/bacadra/image-paste/blob/master/assets/preview.gif?raw=true)
+![Preview](https://github.com/bacadra/image-paste/blob/master/assets/preview.png?raw=true)
 
 
 ## Usage in text editor
