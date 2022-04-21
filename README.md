@@ -29,7 +29,7 @@ Copy image or take screenshot and paste it into Atom. Advance algorithm is used 
 
 ## Notes
 
-* **If any file exists under inserted path, then it will be overwritten without any prompt**.
+* If file already exists, then press `Enter` once more.
 * All grammars are accepted, so package can be used in e.g. LaTeX, Python, Markdown.
 * Sometimes copied item has multiple formats (like tables from MS Excel). Then you can use `ctrl-shift-v` to paste raw text.
 * Only `.png`, `.jpg`, `.jpeg` and `.bmp` formats are supported. If file extension does not match, then `.png` format is used.
