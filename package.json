@@ -1,6 +1,6 @@
 {
   "name": "image-paste",
-  "version": "0.3.8",
+  "version": "0.3.9",
   "main": "./lib/main",
   "description": "Copy image or take screenshot and paste it in text document. The image will be saved in given path and relative url will be inserted into document.",
   "engines": {
