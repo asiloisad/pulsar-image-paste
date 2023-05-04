@@ -1,5 +1,10 @@
 # image-paste
 
+![Tag](https://img.shields.io/github/v/tag/bacadra/atom-image-paste?style=for-the-badge)
+![LastCommit](https://img.shields.io/github/last-commit/bacadra/atom-image-paste?style=for-the-badge)
+![RepoSize](https://img.shields.io/github/repo-size/bacadra/atom-image-paste?style=for-the-badge)
+![Licence](https://img.shields.io/github/license/bacadra/atom-image-paste?style=for-the-badge)
+
 ![Demo](https://github.com/bacadra/image-paste/blob/master/assets/demo.gif?raw=true)
 
 ![Preview](https://github.com/bacadra/image-paste/blob/master/assets/preview.png?raw=true)
