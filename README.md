@@ -25,7 +25,7 @@ The image-paste package allows you to copy images or take screenshots and paste 
 
 To install `image-paste` search for [image-paste](https://web.pulsar-edit.dev/packages/image-paste) in the Install pane of the Pulsar settings or run `ppm install image-paste`.
 
-Alternatively, run `ppm install bacadra/pulsar-image-paste` to install a package directly from Github repository.
+Alternatively, you can run `ppm install bacadra/pulsar-image-paste` to install a package directly from the Github repository.
 
 ## Usage in text-editor
 
