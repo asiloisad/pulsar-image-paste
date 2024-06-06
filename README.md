@@ -1,20 +1,5 @@
 # image-paste
 
-<p align="center">
-  <a href="https://github.com/bacadra/pulsar-image-paste/tags">
-  <img src="https://img.shields.io/github/v/tag/bacadra/pulsar-image-paste?style=for-the-badge&label=Latest&color=blue" alt="Latest">
-  </a>
-  <a href="https://github.com/bacadra/pulsar-image-paste/issues">
-  <img src="https://img.shields.io/github/issues-raw/bacadra/pulsar-image-paste?style=for-the-badge&color=blue" alt="OpenIssues">
-  </a>
-  <a href="https://github.com/bacadra/pulsar-image-paste/blob/master/package.json">
-  <img src="https://img.shields.io/github/languages/top/bacadra/pulsar-image-paste?style=for-the-badge&color=blue" alt="Language">
-  </a>
-  <a href="https://github.com/bacadra/pulsar-image-paste/blob/master/LICENSE">
-  <img src="https://img.shields.io/github/license/bacadra/pulsar-image-paste?style=for-the-badge&color=blue" alt="Licence">
-  </a>
-</p>
-
 ![Demo](https://github.com/bacadra/image-paste/blob/master/assets/demo.gif?raw=true)
 
 ![Preview](https://github.com/bacadra/image-paste/blob/master/assets/preview.png?raw=true)
@@ -45,12 +30,12 @@ To install `image-paste` search for [image-paste](https://web.pulsar-edit.dev/pa
 
 ## Notes
 
-* If a file with the same name already exists, press `Enter` once more to proceed.
-* The package supports all grammars, so it can be used in various file types, such as LaTeX, Python, and Markdown.
-* Sometimes the copied item may have multiple formats (e.g., tables from MS Excel). In such cases, you can use `Ctrl-Shift-V` to paste raw text.
-* Only `.png` and `.jpg` (also `.jpeg`) formats are supported. If the file extension does not match, the `.png` format will be used by default.
-* The package works well with the [tree-view-clipboard](https://github.com/Souleste/tree-view-clipboard) package.
+- If a file with the same name already exists, press `Enter` once more to proceed.
+- The package supports all grammars, so it can be used in various file types, such as LaTeX, Python, and Markdown.
+- Sometimes the copied item may have multiple formats (e.g., tables from MS Excel). In such cases, you can use `Ctrl-Shift-V` to paste raw text.
+- Only `.png` and `.jpg` (also `.jpeg`) formats are supported. If the file extension does not match, the `.png` format will be used by default.
+- The package works well with the [tree-view-clipboard](https://github.com/Souleste/tree-view-clipboard) package.
 
-# Contributing [🍺](https://www.buymeacoffee.com/asiloisad)
+# Contributing
 
 If you have any ideas on how to improve the package, spot any bugs, or would like to support the development of new features, please feel free to share them via GitHub.
