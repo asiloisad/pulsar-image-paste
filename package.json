@@ -1,6 +1,6 @@
 {
   "name": "image-paste",
-  "version": "0.3.13",
+  "version": "1.0.0",
   "main": "./lib/main",
   "description": "Paste image data from clipboard into text-editor as new file",
   "engines": {
