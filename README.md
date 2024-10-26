@@ -2,9 +2,7 @@
 
 Paste image data from clipboard into text-editor and save as file.
 
-![demo-1](https://github.com/bacadra/image-paste/blob/master/assets/demo-1.gif?raw=true)
-
-![demo-2](https://github.com/bacadra/image-paste/blob/master/assets/demo-2.png?raw=true)
+![demo](https://github.com/bacadra/image-paste/blob/master/assets/demo.png?raw=true)
 
 ## Installation
 
