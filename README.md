@@ -1,6 +1,6 @@
 # image-paste
 
-Paste image data from clipboard into text-editor and save as file.
+Paste image data from clipboard into text-editor as new file.
 
 ![demo](https://github.com/bacadra/pulsar-image-paste/blob/master/assets/demo.png?raw=true)
 

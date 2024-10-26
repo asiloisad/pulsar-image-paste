@@ -2,7 +2,7 @@
   "name": "image-paste",
   "version": "0.3.13",
   "main": "./lib/main",
-  "description": "Copy image or take screenshot and paste it in text document. The image will be saved in given path and relative url will be inserted into document.",
+  "description": "Paste image data from clipboard into text-editor as new file",
   "engines": {
     "atom": ">=1.100.0 <2.0.0"
   },
