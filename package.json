@@ -1,13 +1,8 @@
 {
   "name": "image-paste",
-  "version": "1.0.0",
-  "main": "./lib/main",
   "description": "Paste image data from clipboard into text-editor as new file",
-  "engines": {
-    "atom": ">=1.100.0 <2.0.0"
-  },
+  "repository": "https://github.com/bacadra/pulsar-image-paste",
   "keywords": [
-    "bacadra",
     "image",
     "paste",
     "figure",
@@ -17,15 +12,17 @@
     "latex",
     "pylatex"
   ],
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "./lib/main",
+  "engines": {
+    "atom": ">=1.100.0 <2.0.0"
+  },
   "consumedServices": {
     "tree-view": {
       "versions": {
         "^1.0.0": "consumeTreeView"
       }
     }
-  },
-  "homepage": "https://github.com/bacadra/pulsar-image-paste",
-  "url": "https://github.com/bacadra/pulsar-image-paste",
-  "repository": "https://github.com/bacadra/pulsar-image-paste",
-  "license": "MIT"
+  }
 }
