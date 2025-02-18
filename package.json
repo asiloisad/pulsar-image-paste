@@ -1,7 +1,7 @@
 {
   "name": "image-paste",
   "description": "Paste image data from clipboard into text-editor as new file",
-  "repository": "https://github.com/bacadra/pulsar-image-paste",
+  "repository": "https://github.com/asiloisad/pulsar-image-paste",
   "keywords": [
     "image",
     "paste",
