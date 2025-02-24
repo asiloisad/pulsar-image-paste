@@ -6,7 +6,7 @@ Paste image data from clipboard into text-editor as new file.
 
 ## Installation
 
-To install `image-paste` search for [image-paste](https://web.pulsar-edit.dev/packages/image-paste) in the Install pane of the Pulsar settings or run `ppm install image-paste`. Alternatively, you can run `ppm install asiloisad/pulsar-image-paste` to install a package directly from the Github repository.
+To install `image-paste` search for [image-paste](https://web.pulsar-edit.dev/packages/image-paste) in the Install pane of the Pulsar settings or run `ppm install image-paste`. Alternatively, you can run `ppm install asiloisad/pulsar-image-paste` to install a package directly from the GitHub repository.
 
 ## Usage
 
