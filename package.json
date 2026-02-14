@@ -1,6 +1,6 @@
 {
   "name": "image-paste",
-  "description": "Paste image data from clipboard into text-editor as new file",
+  "description": "Paste images from clipboard into your project as new files",
   "repository": "https://github.com/asiloisad/pulsar-image-paste",
   "keywords": [
     "image",
