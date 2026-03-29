@@ -12,7 +12,7 @@
     "latex",
     "pylatex"
   ],
-  "version": "1.1.2",
+  "version": "1.1.3",
   "license": "MIT",
   "main": "./lib/main",
   "engines": {
