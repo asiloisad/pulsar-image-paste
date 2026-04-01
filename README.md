@@ -29,14 +29,14 @@ Commands available in `.tree-view`:
 
 1. Copy image data to the clipboard (e.g. screenshot).
 2. Select destination. A file or directory in the tree view, text editor or text in text-editor can be used.
-3. Paste the data. Use `core:paste` (`Ctrl+V`) if `Hack paste methods` is enabled, otherwise `image-paste:paste` command is required.
+3. Paste the data. Use `core:paste` (<kbd>Ctrl+V</kbd>) if `Hack paste methods` is enabled, otherwise `image-paste:paste` command is required.
 4. Select a name. Change the name of the image or accept the suggested name. Note that `assets` directory is prepended to the name and the selection will take effect.
 5. Confirm the name. After confirmation (`Enter`) a new file is created. If the name already exists, a warning will appear and a second confirmation is required.
 
 ## Notes
 
 - The package supports all grammars, so it can be used in various file types, such as LaTeX, Python and Markdown.
-- Sometimes copied item may have multiple formats (e.g., tables from MS Excel). In such cases, you can use `Ctrl+Shift+V` to paste raw text.
+- Sometimes copied item may have multiple formats (e.g., tables from MS Excel). In such cases, you can use <kbd>Ctrl+Shift+V</kbd> to paste raw text.
 - Only `.png` and `.jpg` (also `.jpeg`) formats are supported. If the file extension does not match, the `.png` format will be used by default.
 
 ## Contributing
