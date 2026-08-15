@@ -1,7 +1,7 @@
 {
   "name": "image-paste",
   "description": "Paste images from clipboard into your project as new files",
-  "repository": "https://github.com/asiloisad/pulsar-image-paste",
+  "repository": "https://github.com/asiloisad-pulsar/image-paste",
   "keywords": [
     "image",
     "paste",
